@@ -44,3 +44,47 @@ rm -rf $RPM_BUILD_ROOT
 %{_docdir}/HOWTO/%{format2}
 
 
+
+
+%changelog
+* Fri Dec 10 2010 Oden Eriksson <oeriksson@mandriva.com> 2006-6mdv2011.0
++ Revision: 619480
+- the mass rebuild of 2010.0 packages
+
+* Fri Sep 04 2009 Thierry Vignaud <tv@mandriva.org> 2006-5mdv2010.0
++ Revision: 429439
+- rebuild
+
+* Thu Jul 24 2008 Thierry Vignaud <tv@mandriva.org> 2006-4mdv2009.0
++ Revision: 247027
+- rebuild
+
+* Tue Jul 22 2008 Thierry Vignaud <tv@mandriva.org> 2006-3mdv2009.0
++ Revision: 239617
+- rebuild
+- better description
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Mon Dec 17 2007 Thierry Vignaud <tv@mandriva.org> 2006-1mdv2008.1
++ Revision: 126826
+- kill re-definition of %%buildroot on Pixel's request
+- import howto-text-nl
+
+
+* Thu Dec 15 2005 Lenny Cartier <lenny@mandriva.com> 2006-1mdk
+- rebuild
+
+* Thu Oct 09 2003 Lenny Cartier <lenny@mandrakesoft.com> 9.2-1mdk
+- updated
+
+* Sat Sep 14 2002  Lenny Cartier <lenny@mandrakesoft.com> 9.0-1mdk
+- update
+
+* Thu Sep 06 2001 Etienne FAURE <etienne@mandrakesoft.com> 8.1-1mdk
+- Updated: Thu Sep 06 2001
+- Add Require on locale-nl
+-first Mandrake release
+
+
